@@ -8,10 +8,7 @@ public void setup()
     if (isPrime(dNum)==true)
     {
     System.out.println(dNum); 
-    noLoop(); 
-    }
-    }
-}  
+    noLoop();}}}  
 public void draw()  
 {   
   //not needed for this assignment
@@ -24,6 +21,4 @@ public boolean isPrime(double dNum)
   for (int i = 2; i <= Math.sqrt(dNum); i++)
      if (dNum%i == 0)
      return false;
-     return true;
-
-} 
+     return true;} 
